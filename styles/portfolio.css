@@ -21,6 +21,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -43,7 +44,7 @@ p {
 .head-text {
   text-align: center;
   background: var(--secondary-color);
-  padding: 80px 20px;
+  padding: 160px 20px;
 }
 
 .head-text p {
@@ -81,10 +82,14 @@ p {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 44px;
+  }
+
+  .head-text {
+    padding: 80px 20px;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
 }
