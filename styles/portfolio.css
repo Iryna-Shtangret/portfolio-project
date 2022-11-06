@@ -28,7 +28,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -48,7 +48,7 @@ p {
 .head-text {
   text-align: center;
   background: var(--secondary-color);
-  padding: 120px 20px;
+  padding: 80px 20px;
 }
 
 .head-text p {
@@ -80,7 +80,7 @@ p {
 }
 
 .content-page {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .content-page h1 {
@@ -184,13 +184,14 @@ footer .social-link a:hover {
     font-size: 44px;
   }
 
-  .head-text {
-    padding: 80px 20px;
-  }
-
   h2 {
     font-size: 40px;
   }
+
+  h3 {
+    font-size: 24px;
+  }
+
   .content-page {
     text-align: center;
     padding: 0px;

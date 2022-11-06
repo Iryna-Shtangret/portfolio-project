@@ -26,9 +26,37 @@
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio About</title>
+    <meta
+      name="description"
+      content="Front-end projects with foto and open-sourced code of Iryna Mrachkovska from Ukraine. At the works used CSS, JavaScript, HTML."
+    />
+    <title>Projects of Iryna - Iryna Mrachkovska</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Iryna logo"
+          />
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="Iryna logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Iryna">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Iryna's work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Iryna's contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-page container">
       <div class="content">
         <h1 class="mb-4 text-center">
@@ -36,26 +64,42 @@
         </h1>
         <div class="row">
           <div class="col-md-6 mb-4">
-            <img src="images/yogurt.png" alt="" class="img-fluid mb-2" />
+            <img
+              src="images/yogurt.png"
+              class="img-fluid mb-2"
+              alt="Yogurt preview"
+            />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/weather.png" alt="" class="img-fluid mb-2" />
+            <img
+              src="images/weather.png"
+              class="img-fluid mb-2"
+              alt="Weather preview"
+            />
             <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS and JavaScript
             </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/dictionary.png" alt="" class="img-fluid mb-2" />
+            <img
+              src="images/dictionary.png"
+              class="img-fluid mb-2"
+              alt="Dictionary preview"
+            />
             <h3 class="text-center m-0">Ditictionary App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS with React
             </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/translation.png" alt="" class="img-fluid mb-2" />
+            <img
+              src="images/translation.png"
+              class="img-fluid mb-2"
+              alt="Translation preview"
+            />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS and JavaScript
@@ -64,5 +108,60 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between d-none d-md-flex">
+        <div>
+          <h3 class="m-0">Work Inquiry</h3>
+          <p class="text-muted m-0">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Iryna"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="text-center mb-4 mt-5">
+        <a
+          href="mailto:mavrushka86@gmail.com"
+          class="email-link"
+          title="Email Iryna"
+          >mavrushka86@gmail.com</a
+        >
+      </div>
+      <div class="social-link d-flex justify-content-center mb-5">
+        <a
+          href="https://github.com/Iryna-Shtangret/portfolio-project"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/shtangretirina"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/irina.shtangret"
+          target="_blank"
+          title="Facebook Profile"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+      <p class="text-center mt-4">
+        This project was coded by Iryna Mrachkovska and it is
+        <a
+          href="https://github.com/Iryna-Shtangret/portfolio-project"
+          target="_blank"
+          title="GitHub open-sourced"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
